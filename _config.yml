@@ -1,7 +1,7 @@
 ###########
 # site.url, site.title
 
-title: 'Open Webslides'
+title: 'COCOON Project'
 
 ## note:
 #  use site.path in your templates to make it work for both protocols e.g. http and https
@@ -11,8 +11,8 @@ url:  ""
 navigation_en:
 - text: Home
   url: /
-- text: Cocoon
-  url: https://project-cocoon.github.io/
+- text: Webslides
+  url: https://openwebslides.github.io/
 - text: Mindset
   url: /en/mindset
 - text: Tool

@@ -13,7 +13,7 @@
         <ul class="nav navbar-nav navbar-right">
           {% assign url = page.url|remove:'index.html' %}
           {% for link in site.navigation_en %}
-          <li {% if page.url == link.url %}class="active"{% endif %}>
+          <li {% if page.url == link.url %}class="active blue"{% endif %}>
               <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
           </li>
           {% endfor %}
